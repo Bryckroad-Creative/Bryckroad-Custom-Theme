@@ -29,7 +29,7 @@ function custom_dashboard_help() {
 		</a>
 	</div>
 	<p>
-		<a href="https://bryckroad.com/contact" title="Contact Brykroad Creative" target="_blank">Contact Brykroad Creative</a> for support with your WEBSITE! Our services include: search engine optimization (SEO), email marketing, Google and Bing advertising, custom web development, logo design and branding, graphic design, brochure/catalog design, marketing and advertising.
+		<a href="https://bryckroad.com/contact" title="Contact Brykroad Creative" target="_blank">Contact Brykroad Creative</a> for support with your website. Our services include: search engine optimization (SEO), email marketing, Google and Bing advertising, custom web development, logo design and branding, graphic design, brochure/catalog design, marketing and advertising.
 	</p>
 	<p><strong><a href="https://bryckroad.com/contact" title="Contact Brykroad Creative" target="_blank">Contact Brykroad Creative</a></strong></p>
 	';
