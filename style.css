@@ -4,5 +4,65 @@
  Description:  Creates a support widget in Wordpress Dashboard
  Author:       Louis Riddle
  Template:     hello-elementor
- Version:      1.0.0
+ Version:      1.0.1
 */
+
+/* Off-screen animation overflow fix */
+body .elementor-inner { overflow: hidden; }
+/* Last paragraph space fix */
+body p:last-child { margin-bottom: 0; }
+/* Link color fix */
+body a { color: inherit; }
+/* Bold font weight fix */
+body b, body strong { font-weight: 800;}
+/* Seciton Padding Class */
+.pad90 { padding: 90px; }
+@media screen and (max-width:768px){
+    .pad90 { padding: 60px; }
+}
+@media screen and (max-width:480px){
+    .pad90 { padding: 45px 30px; }
+}
+
+/* Off-screen animation overflow fix */
+body .elementor-inner { overflow: hidden; }
+/* Last paragraph space fix */
+body p:last-child { margin-bottom: 0; }
+/* Link color fix */
+body a { color: inherit; }
+/* Bold font weight fix */
+body b, body strong { font-weight: 800;}
+/* Seciton Padding Class */
+.pad90 { padding: 90px; }
+@media screen and (max-width:768px){
+    .pad90 { padding: 60px; }
+}
+@media screen and (max-width:480px){
+    .pad90 { padding: 45px 30px; }
+}
+
+/* RESPONSIVE TYPOGRAPHY */
+/* Modular Scale located here: https://www.modularscale.com/?1,1120,12&em&1.3 */
+body {
+  font-size: calc(12px + 0.35vw); /* Responsive base font size */
+  line-height: calc(12px + 1.05vw); /* Responsive Vertical Rhythm */
+}
+h1 {
+    font-size: 2.197em;
+    line-height: calc(18px + 1.8vw);
+}
+h2 {
+    font-size: 2.063em;
+    line-height: calc(18px + 1vw);
+}
+h3 {
+    font-size: 1.912em;
+    line-height: calc(18px + .7vw);
+}
+h4 { font-size: 1.69em; }
+h5 { font-size: 1.587em; }
+h5 { font-size: 1.471em; }
+h4, h5, h6 { line-height: calc(18px + .2vw); }
+/* Vertical Rhythm */
+h1, h2, h3, h4, h5, h6 { margin: calc(12px + 1.05vw) 0; }
+
