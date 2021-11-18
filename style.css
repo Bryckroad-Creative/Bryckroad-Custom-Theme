@@ -1,5 +1,5 @@
 /*
- Theme Name:   Bryckroad
+ Theme Name:   Bryckroad Custom Theme
  Theme URI:    http://bryckroad.com/
  Description:  Creates a support widget in Wordpress Dashboard
  Author:       Bryckroad Creative, Louis Riddle - Website Support Specialist
@@ -42,15 +42,15 @@ h3 {
     font-size: 1.912em;
     line-height: calc(18px + .7vw);
 }
-h4 { 
-    font-size: 1.69em; 
+h4 {
+    font-size: 1.69em;
     line-height: calc(18px + .2vw);
 }
-h5 { 
+h5 {
     font-size: 1.587em;
     line-height: calc(18px + .2vw);
 }
-h6 { 
+h6 {
     font-size: 1.471em;
     line-height: calc(18px + .2vw);
 }
